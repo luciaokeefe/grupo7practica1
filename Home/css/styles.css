@@ -5,21 +5,41 @@
 
 body{
     background-color: rgb(250, 133, 143);
+    @media {min-width: 768px;}
+    @media {min-width: 1024px;}
 }
 
 section ul{ 
     display: flex; 
-    flex-direction: row;
-    ;
+    flex-direction: column;
+    justify-content: center
+    ; 
+}
+section li {
+    margin-bottom: 20px;
+    text-align: center; 
+    font-size: x-large;
+    
+}
+a {color: rgb(255, 233, 194);text-decoration: none;
+
+
 }
 
-h3{background-color: rgb(255, 233, 194);}
+h3{background-color: rgb(255, 233, 194);
+    color:rgb(250, 133, 143); text-align: center; 
+    border: double ;border-width: 20px;
+    font-size: x-large;
+}
 
-main img {height: 200px; width: 150px;}
+section img {height: 435px;
+     width: 345px;border: groove;
+     border-width: 20px;}
 
 ul{
     padding: 0;
     margin: 0;
+    display: block;
 }
 
 
