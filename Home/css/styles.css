@@ -12,28 +12,36 @@ body{
 section ul{ 
     display: flex; 
     flex-direction: column;
-    justify-content: center
-    ; 
+    justify-content: center ; 
+    font-size: 40px;
 }
 section li {
     margin-bottom: 20px;
     text-align: center; 
     font-size: x-large;
+    flex-wrap: wrap;
     
 }
-a {color: rgb(255, 233, 194);text-decoration: none;
+a {
+    color: rgb(90, 53, 57);
+    text-decoration: none;
+    font-family: 'Urbanist', sans-serif;
 
 
 }
 
-h3{background-color: rgb(255, 233, 194);
+h3 {background-color: rgb(255, 233, 194);
     color:rgb(250, 133, 143); text-align: center; 
     border: double ;border-width: 20px;
     font-size: x-large;
+    font-family: 'Bebas Neue';
+    
+    
 }
 
-section img {height: 435px;
-     width: 345px;border: groove;
+section img {
+    height: 435px;
+     width: 290px;border: groove;border-color: rgb(73, 52, 32);
      border-width: 20px;}
 
 ul{

@@ -1,5 +1,9 @@
+html{
+    margin-left: 5px;
+}
 body{
     background-color: rgb(250, 133, 143);
+    
 }
 h1{
     font-family: 'Bebas Neue', cursive;
@@ -7,9 +11,14 @@ h1{
     color:rgb(90, 53, 57) ;
 }
 
+div.foto{
+    display: flex;
+
+}
+
 div.foto img{
     width: 250px;
-    padding: 3px;
+    display: flex;   
 }
 
 .calificacion i {
@@ -34,4 +43,9 @@ div.foto img{
     font-family: 'Urbanist', sans-serif;
     font-size: 20px;
     
+}
+
+.fechaNumero{
+    font-size: 18px;
+    font-family: 'Urbanist', sans-serif;
 }
