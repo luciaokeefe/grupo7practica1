@@ -3,7 +3,7 @@ html{
 }
 body{
     background-color: rgb(250, 133, 143);
-    
+   
 }
 h1{
     font-family: 'Bebas Neue', cursive;
@@ -47,5 +47,9 @@ div.foto img{
 
 .fechaNumero{
     font-size: 18px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.sinopsis {
     font-family: 'Urbanist', sans-serif;
 }
