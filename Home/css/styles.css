@@ -19,6 +19,7 @@ section li {
     margin-bottom: 20px;
     text-align: center; 
     font-size: x-large;
+    flex-wrap: wrap;
     
 }
 a {color: rgb(255, 233, 194);text-decoration: none;
@@ -32,8 +33,9 @@ h3{background-color: rgb(255, 233, 194);
     font-size: x-large;
 }
 
-section img {height: 435px;
-     width: 345px;border: groove;
+section img {
+    height: 435px;
+     width: 290px;border: groove;border-color: rgb(73, 52, 32);
      border-width: 20px;}
 
 ul{
