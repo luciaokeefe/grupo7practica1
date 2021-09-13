@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(250, 133, 143);
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color:rgb(90, 53, 57) ;
+}
+
+div.foto img{
+    width: 250px;
+    padding: 3px;
+}
+
+.calificacion i {
+    color: rgb(255, 220, 66);
+}
+
+.calificacion {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.calificacion p {
+    display: block;
+    padding: 6px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.fecha {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+    
+}

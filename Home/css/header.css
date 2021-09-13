@@ -9,11 +9,11 @@
     padding: 4px;
 }
 .navbar{
-    background-color: rgb(134, 200, 202);
+    background-color: rgb(206, 110, 118);
     margin: 7px;
 }
 nav.navbar ul{  
-    background-color: rgb(134, 200, 202);
+    background-color: rgb(206, 110, 118);
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -21,7 +21,7 @@ nav.navbar ul{
 }
 
 nav.navbar ul a{
-    color: rgb(63, 94, 95);
+    color: rgb(255, 235, 235);
     display: block;
     height: 20px;
     padding: 10px;
@@ -42,4 +42,23 @@ nav.navbar ul a{
 form{
     display: block;
     padding: 5px;
+}
+
+form button{
+    border-radius: 5px;
+    border-color: rgb(255, 238, 216);
+    font-family:'Urbanist', sans-serif ;
+    background-color:  rgb(255, 233, 194);
+}
+
+@media (min-width : 760px){
+   nav.navbar ul a{
+    width: 20%;
+    
+    
+    }
+    .navbar { 
+        display: flex;
+        flex-direction: row; }
+
 }
