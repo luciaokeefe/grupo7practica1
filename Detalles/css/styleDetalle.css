@@ -13,6 +13,7 @@ h1{
 
 div.foto{
     display: flex;
+
 }
 
 div.foto img{
@@ -39,10 +40,9 @@ div.foto img{
 }
 
 .fecha {
-    color: rgb(90, 53, 57);
-    font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
-
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+    
 }
 
 .fechaNumero{
@@ -50,28 +50,6 @@ div.foto img{
     font-family: 'Urbanist', sans-serif;
 }
 
-.duracion {
-    color: rgb(90, 53, 57);
-    font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
-}
-.duracionTexto {
-    font-family: 'Urbanist', sans-serif;
-    font-size: 20px;
-}
-
-.sinopsisTitulo  {
-    color: rgb(90, 53, 57);
-    font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
-}
-
-.sinopsisTexto {
-    font-family: 'Urbanist', sans-serif;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-}
-
-form button {
+.sinopsis {
     font-family: 'Urbanist', sans-serif;
 }
